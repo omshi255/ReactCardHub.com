@@ -1,0 +1,124 @@
+.main-container-card
+{
+   width: 100%;
+   height: 700px;
+ display: flex;
+
+
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+}
+
+.cards-block
+{ 
+    width: 400px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    border-radius: 20px 0px 20px 0px ;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+ background-color: #859d7b;
+} 
+.cards-block img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+h3
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.btn
+{
+   
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover
+{
+    transform: scale(1.25);
+    transition: 0.4s all ease-in;
+    background-color: #859d7b;
+    
+}
+h4
+{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+}
+@media screen and (max-width: 360px)
+{
+    .main-container-card
+    {
+       width: 100%;
+       height: 800px;
+    }
+    
+    .cards-block
+    {    
+        height: 800px;
+        min-width: 480px;    /* border: 2px solid black; */
+      margin-top: 150px;
+        border-radius: 20px 0px 20px 0px ;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+     background-color: #859d7b;
+    } 
+    .cards-block img
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    h3
+    {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .btn
+    {
+       
+        width: 50px;
+        height: 50px;
+        margin-left: 150px;
+        margin-top: 20px;
+        border: 0;
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn:hover
+    {
+        transform: scale(1.25);
+        transition: 0.4s all ease-in;
+        background-color: #859d7b;
+        
+    }
+    h4
+    {
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(48, 48, 48);
+        font-size: 14px;
+    }
+}
